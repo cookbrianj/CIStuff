@@ -1,0 +1,3 @@
+kernel vec4 chromaKey( __sample s) {
+    return vec4( s.bgra );
+}
